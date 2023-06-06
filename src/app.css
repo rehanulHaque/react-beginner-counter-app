@@ -1,0 +1,32 @@
+:root{
+    --pri-clr: #2c2c2c;
+    --sec-clr:#282828;
+}
+body{
+    background-color: var(--pri-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background-color: var(--sec-clr);
+    padding: 1rem 2rem;
+    border-radius: 8rem;
+    
+}
+.count{
+    font-size: 4rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #fff;
+}
